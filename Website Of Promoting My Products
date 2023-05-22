@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Product Promotion</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .product {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .product img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    .product-info {
+      flex-grow: 1;
+    }
+
+    .product-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0 0 10px;
+    }
+
+    .product-description {
+      margin: 0 0 10px;
+    }
+
+    .product-price {
+      font-size: 18px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Product Promotion</h1>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <div class="product-info">
+        <h2 class="product-title">Product 1</h2>
+        <p class="product-description">This is a description of Product 1.</p>
+        <p class="product-price">$19.99</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product2.jpg" alt="Product 2">
+      <div class="product-info">
+        <h2 class="product-title">Product 2</h2>
+        <p class="product-description">This is a description of Product 2.</p>
+        <p class="product-price">$24.99</p>
+      </div>
+    </div>
+
+    <!-- Add more product entries here -->
+
+  </div>
+</body>
+</html>
 
