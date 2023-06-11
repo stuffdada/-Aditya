@@ -1,0 +1,58 @@
+Here Is Code For HTML
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="iphone">
+    <div class="iphone__screen">
+      <!-- Content inside the screen goes here -->
+    </div>
+    <div class="iphone__home-button"></div>
+  </div>
+</body>
+</html>
+
+
+Here Is Code For CSS
+
+
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .iphone {
+    width: 375px;
+    height: 812px;
+    background-color: #000;
+    border-radius: 30px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .iphone__screen {
+    width: 325px;
+    height: 675px;
+    background-color: #fff;
+    margin: 68px auto;
+  }
+  
+  .iphone__home-button {
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
